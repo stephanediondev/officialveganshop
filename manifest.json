@@ -1,0 +1,11 @@
+{
+	"name": "Official Vegan Shop",
+	"version": "1.0",
+	"default_locale": "en",
+	"description": "__MSG_description__",
+	"manifest_version": 2,
+	"content_scripts": [ {
+		"js": [ "/content.js" ],
+		"matches": [ "https://www.officialveganshop.com/*" ]
+	} ]
+}
